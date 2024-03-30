@@ -1,0 +1,296 @@
+/* <!-- For Mobiles -->  */
+
+@media screen and (min-width:200px) and (max-width:500px) {
+
+/* First section */
+
+    .home{
+        height: 70vh;
+    }
+    .navigator{
+    background-color: rgba(0, 0, 0, 0.904);
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    }
+    .logo{
+        width: 10%;
+        float: left;
+        padding-top:22px ;
+        padding-left:20px;
+    }
+    .home ul{
+        text-align: center;
+    }
+    .logo a{
+        color: #FF305B;
+        font-weight: 800;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .links{
+        width: 90%;
+        float: right;
+        padding-right:0px;
+        margin-left:0px;
+    }
+    .links a{
+        padding:0px 4px;
+        font-size: 9px;
+    }
+    .home-cont h1{
+        font-size: 50px;
+
+    }
+    .home-cont h3{ 
+        font-size: 25px; 
+    }
+    .home-cont h4{
+        font-size: 20px;
+    }
+/* ------------------------------- */
+/* Section two */
+
+    .about{
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .about-image{
+        width:100%;
+        float: left;
+        padding-left:70px;
+        position: relative;
+    }
+    .back-border{
+        width:80%;
+        height:100%;
+        position: absolute;
+        bottom: 20px;
+        left: 35px;
+    }
+    .about-image img{
+        width: 90%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .about-image .layer{
+        width:90%;
+        height:100%;
+    }
+    .about-cont{
+        width:100%;
+    }
+    .about-cont h2{
+        margin: 20px 0px 0px 0px;
+    }
+    .about-cont p{
+        line-height: 1.2;
+    }
+    .shape{
+        width: 4px;
+        height: 23px;
+    }
+    .list1{
+        display: inline-block;
+        list-style: none;
+        padding:0px 0px;
+        margin-right:50px;
+    }
+    .list1 li{
+        font-family: 'Roboto', sans-serif;;
+        font-size: 14px;
+        font-weight: 400;
+        color: #555555;
+        padding: 10px 0px;
+    }
+    .list2 li{
+        font-size: 14px;
+    }
+    .list2 a{
+        font-size: 14px;    
+    }
+    .about-cont button{
+    font-size: 12px;
+    }
+/* ------------------------------- */
+/* Section Three */
+
+    .services{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .services .serv{
+        width: 100%;
+
+    }
+    .serv p{
+        font-size: 15px;
+    }
+/* ------------------------------- */
+/* Section Four */
+    .portofolio{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .portofolio button{
+        margin: 25px 5px 30px 15px;
+    }
+    .item{
+        width: 50%;
+        float: left;
+        padding: 10px 10px;
+    }
+/* ------------------------------- */
+/* Section 5 */
+    .numbers{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .result{
+        width: 50%;
+        float: left;
+        padding: 10px 10px;
+    }
+/* ------------------------------- */
+/* Section Six */
+
+    .testimonial{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .card{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .card-image{
+        width: 30%;
+        padding-left: 0px;
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+    .card-image img{
+        width: 70%;
+        z-index: 100;
+        margin-top: 10px;
+    }
+    .card-cont{
+        width: 70%;
+        float: left;
+        padding-left: 0px;
+    }
+    .card-cont h3{
+        font-size: 25px; 
+    }
+    .card-cont h4{
+        font-size: 12px;
+       
+    }
+    .card-cont p{
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    .stars i{
+        font-size: 12px;
+    }
+    .card .design{
+      z-index: -100;
+    }
+/* ------------------------------- */
+    /* Section Seven */
+.blog{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.bl{
+    width: 100%;
+    float: left;
+    padding: 15px 0px ;
+}
+.in{
+    background-color: #ffffff;
+    padding-bottom: 25px;
+}
+.bl img{
+    width: 100%;
+}
+.bl iframe{
+    width: 100%;
+}
+.bl h4{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    padding-left: 15px;
+    margin: 20px 0px 10px 0px;
+}
+.bl h3{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    padding-left: 15px;
+    margin: 5px 0px;
+}
+.bl p{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.bl a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    padding-left: 15px;
+    transition: color 1s;
+}
+.bl:hover a{
+    color: #FF3F67;
+}
+/* ------------------------------- */
+/* Section Eight */
+    .contact{
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .contact h2{
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        color: #333333;
+        margin-bottom: 1px;
+        text-align: center;
+    }
+    .parent{
+        width: 90%;
+        height: 400px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .input1{
+        width: 100%;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 5px;
+        border: #cdcdcd solid 2px;
+        margin-bottom: 20px;
+    }
+    .input2{
+        width:100%;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 5px;
+        border: #cdcdcd solid 2px;
+    }
+}
